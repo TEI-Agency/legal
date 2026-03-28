@@ -2,32 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Privacy Policy - CM-Ads-Manager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Eye Insights - Legal Center</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 40px auto; padding: 0 20px; }
-        h1 { border-bottom: 2px solid #eee; padding-bottom: 10px; }
-        h2 { color: #2c3e50; margin-top: 30px; }
+        body { font-family: 'Inter', sans-serif; line-height: 1.8; color: #303030; background-color: #EDEDE6; max-width: 800px; margin: 0 auto; padding: 60px 20px; text-align: center; }
+        .container { background-color: #FFFFFF; padding: 60px 40px; border-radius: 0; box-shadow: none; border: 1px solid #303030; }
+        h1 { font-family: 'Playfair Display', serif; color: #303030; font-size: 2.8em; margin-bottom: 5px; }
+        p.subtitle { color: #303030; font-weight: 600; font-size: 1.2em; margin-bottom: 50px; opacity: 0.8; }
+        p.intro { margin-bottom: 50px; max-width: 600px; margin-left: auto; margin-right: auto; }
+        .links-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 40px; }
+        .legal-link { display: block; padding: 40px 20px; background-color: #FFFFFF; border: 2px solid #303030; border-radius: 0; text-decoration: none; color: #303030; transition: background-color 0.2s ease; }
+        .legal-link:hover { background-color: rgba(48, 48, 48, 0.05); }
+        .legal-link h2 { font-family: 'Playfair Display', serif; font-size: 1.6em; margin: 0 0 15px 0; color: #303030; }
+        .legal-link p { margin: 0; font-size: 1em; }
+        .footer { text-align: center; margin-top: 80px; font-size: 0.9em; color: #303030; opacity: 0.6; }
+        @media (max-width: 600px) { h1 { font-size: 2.2em; } .links-grid { grid-template-columns: 1fr; gap: 20px; } }
     </style>
 </head>
 <body>
-    <h1>Privacy Policy for CM-Ads-Manager</h1>
-    <p><strong>Effective Date: March 28, 2026</strong></p>
-    
-    <p>At CM-Ads-Manager, we take your privacy seriously. This policy explains how we handle your data when using our Facebook Marketing API integration.</p>
+    <div class="container">
+        <h1>Third Eye Insights</h1>
+        <p class="subtitle">Legal & Compliance Center</p>
+        
+        <p class="intro">Welcome to our official compliance hub. This site hosts the necessary legal documentation regarding privacy and data management for applications developed by Third Eye Insights.</p>
 
-    <h2>1. Information We Collect</h2>
-    <p>We access your name, email address, and Facebook Ad Account data (IDs, campaign stats, and budgets) through Meta's secure OAuth process.</p>
-
-    <h2>2. How We Use Data</h2>
-    <p>The data is used strictly to provide the dashboard features of CM-Ads-Manager, allowing you to monitor and manage your ads. We do not use this data for any other purpose.</p>
-
-    <h2>3. Data Sharing</h2>
-    <p>We do not sell, trade, or share your personal or advertising data with any third-party companies.</p>
-
-    <h2>4. Data Retention</h2>
-    <p>We only store your access tokens temporarily. You can revoke our access at any time through your Facebook settings.</p>
-
-    <h2>5. Contact Information</h2>
-    <p>For any privacy-related questions, contact us at: <strong>info@thirdeyeinsights.ca</strong></p>
+        <div class="links-grid">
+            <a href="privacy.html" class="legal-link">
+                <h2>Privacy Policy</h2>
+                <p>Detailed information on how we collect, use, and protect your data.</p>
+            </a>
+            <a href="deletion.html" class="legal-link">
+                <h2>Data Deletion</h2>
+                <p>Instructions and requests to remove your data from our systems.</p>
+            </a>
+        </div>
+    </div>
+    <div class="footer">
+        &copy; 2026 Third Eye Insights. All rights reserved.
+    </div>
 </body>
 </html>
